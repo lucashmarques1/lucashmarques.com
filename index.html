@@ -118,7 +118,28 @@
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>contato@lucashmarques.com</span>
                 </li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Idade:</strong> <span>20</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Idade:</strong> <span id="idade"></span></li>
+                <!-- Calcular minha idade -->
+                <script>
+                  function calcularIdade(dataNascimento) {
+                    const hoje = new Date();
+                    const nascimento = new Date(dataNascimento);
+                    let idade = hoje.getFullYear() - nascimento.getFullYear();
+                    const mes = hoje.getMonth() - nascimento.getMonth();
+
+                    // Verifica se ainda não fez aniversário no ano atual
+                    if (mes < 0 || (mes === 0 && hoje.getDate() < nascimento.getDate())) {
+                      idade--;
+                    }
+                    return idade;
+                  }
+
+                  // Data de nascimento no formato 'YYYY-MM-DD'
+                  const dataNascimento = '2003-12-05';
+                  document.getElementById('idade').textContent = calcularIdade(dataNascimento);
+
+                </script>
+
               </ul>
             </div>
           </div>

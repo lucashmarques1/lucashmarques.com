@@ -411,7 +411,7 @@ section .container {
 # Ideas
 --------------------------------------------------------------*/
 .ideas .card {
-  background: rgba(255, 255, 255, 0.08) !important;
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .ideas .card h3 {

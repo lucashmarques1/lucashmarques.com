@@ -17,12 +17,8 @@
   </script>
 
   <title>Lucas Henrique Marques</title>
-  <meta
-    content="Lucas H. Marques – Profissional de Tecnologia da Informação com foco em Segurança da Informação e Cibersegurança. Conheça minha trajetória, certificações e experiências na área de TI."
-    name="description">
-  <meta
-    content="Lucas Henrique Marques, Tecnologia da Informação, Segurança da Informação, Cibersegurança, Infraestrutura de TI, Suporte Técnico, Certificações em TI, Experiência Profissional, Educação em Tecnologia, Currículo, Currículo Online"
-    name="keywords">
+  <meta name="description"
+    content="Explore e conheça minhas ideias e soluções em Tecnologia da Informação. Visualize ferramentas, cálculos, conversores e projetos interativos.">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.webp" rel="icon">
@@ -66,10 +62,10 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link active" href="#header">Início</a></li>
-          <li><a class="nav-link" href="#about">Sobre</a></li>
+          <li><a class="nav-link" href="#ideas">Ideias em prática</a></li>
           <li><a class="nav-link" href="#resume">Experiências</a></li>
           <li><a class="nav-link" href="#portfolio">Certificados</a></li>
-          <li><a class="nav-link" href="#ideas">Ideias em prática</a></li>
+          <li><a class="nav-link" href="#about">Sobre</a></li>
           <li><a class="nav-link" href="#contact">Contato</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -87,166 +83,69 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about">
-
-    <!-- ======= About Me ======= -->
-    <div class="about-me container">
+  <!-- ======= Ideas Section ======= -->
+  <section id="ideas" class="ideas">
+    <div class="container">
 
       <div class="section-title">
-        <h2>Sobre</h2>
-        <p>Me conhecendo melhor</p>
+        <h2>Ideias em prática</h2>
+        <p>Tirando do papel</p>
       </div>
 
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/me.webp" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>Profissional de TI | Tecnólogo em ADS</h3>
-          <p class="fst-italic">
-            Atua na área de Tecnologia da Informação, oferecendo suporte e soluções para manter sistemas, equipamentos e
-            usuários funcionando com eficiência. Tem se aprofundado em Segurança da Informação, explorando formas de
-            aplicar esse conhecimento no dia a dia para aumentar a proteção dos dados e melhorar os processos.
-          </p>
-          <div class="row">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Nacionalidade:</strong> <span>Brasileiro</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Língua:</strong> <span>Português (nativo) - Inglês
-                    (básico)</span></li>
-              </ul>
-            </div>
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>contato@lucashmarques.com</span>
-                </li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Idade:</strong> <span id="idade"></span></li>
-                <!-- Calcular minha idade -->
-                <script>
-                  function calcularIdade(dataNascimento) {
-                    const hoje = new Date();
-                    const nascimento = new Date(dataNascimento);
-                    let idade = hoje.getFullYear() - nascimento.getFullYear();
-                    const mes = hoje.getMonth() - nascimento.getMonth();
+      <div class="row g-3">
 
-                    // Verifica se ainda não fez aniversário no ano atual
-                    if (mes < 0 || (mes === 0 && hoje.getDate() < nascimento.getDate())) {
-                      idade--;
-                    }
-                    return idade;
-                  }
-
-                  // Data de nascimento no formato 'YYYY-MM-DD'
-                  const dataNascimento = '2003-12-05';
-                  document.getElementById('idade').textContent = calcularIdade(dataNascimento);
-
-                </script>
-
-              </ul>
+        <!-- Financeiro -->
+        <div class="col-md-3 d-flex">
+          <div class="card text-center w-100">
+            <div class="card-body">
+              <i class="bi bi-cash-stack fs-1 text-primary mb-3"></i>
+              <h3 class="card-title">Financeiro</h3>
+              <p class="card-text">Ferramentas para controle e planejamento financeiro.</p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Página em construção <i class="bi bi-tools"></i></a>
             </div>
           </div>
-          <p>
-            Sou uma pessoa determinada e curiosa, sempre em busca de aprender e me aprimorar. Acredito sinceramente que
-            o sucesso é resultado do esforço, da colaboração em equipe e da incessante busca por novos conhecimentos e
-            habilidades. Diante de desafios, sou motivado a encontrar soluções criativas e eficazes, dedicando-me
-            incansavelmente até alcançar resultados satisfatórios. Tenho um forte espírito de equipe e estou sempre
-            disposto a oferecer meu apoio e contribuir para o sucesso coletivo. Ajudar os outros e superar desafios
-            juntos é o que me impulsiona e me inspira no meu dia a dia.
-          </p>
         </div>
+
+        <!-- Saúde e Bem-estar -->
+        <div class="col-md-3 d-flex">
+          <div class="card text-center w-100">
+            <div class="card-body">
+              <i class="bi bi-heart-pulse fs-1 text-success mb-3"></i>
+              <h3 class="card-title">Saúde e Bem-estar</h3>
+              <p class="card-text">Cálculos e dicas para cuidar da saúde e bem-estar.</p>
+              <a href="#" class="btn btn-outline-success btn-sm">Página em construção <i class="bi bi-tools"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Conversões -->
+        <div class="col-md-3 d-flex">
+          <div class="card text-center w-100">
+            <div class="card-body">
+              <i class="bi bi-arrow-repeat fs-1 text-warning mb-3"></i>
+              <h3 class="card-title">Conversões</h3>
+              <p class="card-text">Converta moedas, unidades e medidas em segundos.</p>
+              <a href="#" class="btn btn-outline-warning btn-sm">Página em construção <i class="bi bi-tools"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tecnologia -->
+        <div class="col-md-3 d-flex">
+          <div class="card text-center w-100">
+            <div class="card-body">
+              <i class="bi bi-cpu fs-1 text-info mb-3"></i>
+              <h3 class="card-title">Tecnologia</h3>
+              <p class="card-text">Pequenos projetos e soluções criadas em código.</p>
+              <a href="#" class="btn btn-outline-info btn-sm">Página em construção <i class="bi bi-tools"></i></a>
+            </div>
+          </div>
+        </div>
+
       </div>
-
-    </div><!-- End About Me -->
-
-
-    <!-- ======= Interests ======= -->
-    <div class="interests container">
-
-      <div class="section-title">
-        <h2>Interesses</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-          <div class="icon-box">
-            <i class="ri-lock-line" style="color: #ffbb2c;"></i>
-            <h3>Segurança da Informação</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-shield-star-line" style="color: #5578ff;"></i>
-            <h3>Cibersegurança</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-settings-3-line" style="color: #e80368;"></i>
-            <h3>Tecnologias</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <i class="ri-cpu-line" style="color: #e361ff;"></i>
-            <h3>Hardware</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-lightbulb-flash-line" style="color: #47aeff;"></i>
-            <h3>Autoconhecimento</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-book-line" style="color: #ffa76e;"></i>
-            <h3>Aprender</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-tools-line" style="color: #11dbcf;"></i>
-            <h3>Resolução de problemas</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-chat-3-line" style="color: #4233ff;"></i>
-            <h3>Comunicação</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-code-s-slash-line" style="color: #b2904f;"></i>
-            <h3>Programação</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-cup-line" style="color: #b20969;"></i>
-            <h3>Café</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-tree-line" style="color: #ff5828;"></i>
-            <h3>Natureza</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-football-line" style="color: #29cc61;"></i>
-            <h3>Esportes</h3>
-          </div>
-        </div>
-      </div>
-
-    </div><!-- End Interests -->
-
-
-
-  </section><!-- End About Section -->
+    </div>
+  </section>
+  <!-- End Ideas Section -->
 
   <!-- ======= Resume Section ======= -->
   <section id="resume" class="resume">
@@ -582,23 +481,162 @@
     </div>
   </section><!-- End Portfolio Section -->
 
-  <!-- ======= Ideas Section ======= -->
-  <section id="ideas" class="ideas">
-    <div class="container">
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
 
       <div class="section-title">
-        <h2>Ideias</h2>
-        <p>Tirando do papel</p>
+        <h2>Sobre</h2>
+        <p>Me conhecendo melhor</p>
       </div>
 
-      <div class="row mt-2">
-        <div class="col-md-12 d-flex align-items-stretch">
-          <p>Página em construção <i class="bi bi-tools"></i></p>
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="assets/img/me.webp" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>Profissional de TI | Tecnólogo em ADS</h3>
+          <p class="fst-italic">
+            Atua na área de Tecnologia da Informação, oferecendo suporte e soluções para manter sistemas, equipamentos e
+            usuários funcionando com eficiência. Tem se aprofundado em Segurança da Informação, explorando formas de
+            aplicar esse conhecimento no dia a dia para aumentar a proteção dos dados e melhorar os processos.
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Nacionalidade:</strong> <span>Brasileiro</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Língua:</strong> <span>Português (nativo) - Inglês
+                    (básico)</span></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>contato@lucashmarques.com</span>
+                </li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Idade:</strong> <span id="idade"></span></li>
+                <!-- Calcular minha idade -->
+                <script>
+                  function calcularIdade(dataNascimento) {
+                    const hoje = new Date();
+                    const nascimento = new Date(dataNascimento);
+                    let idade = hoje.getFullYear() - nascimento.getFullYear();
+                    const mes = hoje.getMonth() - nascimento.getMonth();
+
+                    // Verifica se ainda não fez aniversário no ano atual
+                    if (mes < 0 || (mes === 0 && hoje.getDate() < nascimento.getDate())) {
+                      idade--;
+                    }
+                    return idade;
+                  }
+
+                  // Data de nascimento no formato 'YYYY-MM-DD'
+                  const dataNascimento = '2003-12-05';
+                  document.getElementById('idade').textContent = calcularIdade(dataNascimento);
+
+                </script>
+
+              </ul>
+            </div>
+          </div>
+          <p>
+            Sou uma pessoa determinada e curiosa, sempre em busca de aprender e me aprimorar. Acredito sinceramente que
+            o sucesso é resultado do esforço, da colaboração em equipe e da incessante busca por novos conhecimentos e
+            habilidades. Diante de desafios, sou motivado a encontrar soluções criativas e eficazes, dedicando-me
+            incansavelmente até alcançar resultados satisfatórios. Tenho um forte espírito de equipe e estou sempre
+            disposto a oferecer meu apoio e contribuir para o sucesso coletivo. Ajudar os outros e superar desafios
+            juntos é o que me impulsiona e me inspira no meu dia a dia.
+          </p>
         </div>
       </div>
 
-    </div>
-  </section><!-- End Ideals Section -->
+    </div><!-- End About Me -->
+    <!-- ======= Interests ======= -->
+    <div class="interests container">
+
+      <div class="section-title">
+        <h2>Interesses</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4">
+          <div class="icon-box">
+            <i class="ri-lock-line" style="color: #ffbb2c;"></i>
+            <h3>Segurança da Informação</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-shield-star-line" style="color: #5578ff;"></i>
+            <h3>Cibersegurança</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-settings-3-line" style="color: #e80368;"></i>
+            <h3>Tecnologias</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="ri-cpu-line" style="color: #e361ff;"></i>
+            <h3>Hardware</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-lightbulb-flash-line" style="color: #47aeff;"></i>
+            <h3>Autoconhecimento</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-book-line" style="color: #ffa76e;"></i>
+            <h3>Aprender</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-tools-line" style="color: #11dbcf;"></i>
+            <h3>Resolução de problemas</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-chat-3-line" style="color: #4233ff;"></i>
+            <h3>Comunicação</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-code-s-slash-line" style="color: #b2904f;"></i>
+            <h3>Programação</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-cup-line" style="color: #b20969;"></i>
+            <h3>Café</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-tree-line" style="color: #ff5828;"></i>
+            <h3>Natureza</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-football-line" style="color: #29cc61;"></i>
+            <h3>Esportes</h3>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End Interests -->
+
+  </section><!-- End About Section -->
 
   <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">

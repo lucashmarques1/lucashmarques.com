@@ -411,16 +411,17 @@ section .container {
 # Ideas
 --------------------------------------------------------------*/
 .ideas .card {
+  padding: 30px;
   background: rgba(255, 255, 255, 0.08);
 }
 
-.ideas .card .card-body h3 {
+.ideas .card .info-card h3 {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
 }
 
-.ideas .card .card-body p {
+.ideas .card .info-card p {
   padding: 0;
   color: #fff;
   line-height: 24px;

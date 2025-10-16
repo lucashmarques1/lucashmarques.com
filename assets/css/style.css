@@ -407,6 +407,12 @@ section .container {
   color: #fff;
 }
 
+
+
+
+
+
+/*----- # INDEX -----*/
 /*--------------------------------------------------------------
 # Ideas
 --------------------------------------------------------------*/
@@ -765,6 +771,49 @@ section .container {
 .contact .info-box .social-links a:hover {
   color: #18d26e;
 }
+
+/*----- # END INDEX -----*/
+
+
+
+
+/*----- # IDEIAS-EM-PRATICA -----*/
+.ideas-session .info-box {
+  color: #444444;
+  padding: 20px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.ideas-session .info-box i.bx {
+  font-size: 24px;
+  color: #18d26e;
+  border-radius: 50%;
+  padding: 14px;
+  float: left;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.ideas-session .info-box h3 {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+  margin: 10px 0 8px 68px;
+}
+
+.ideas-session .info-box p {
+  padding: 0;
+  color: #fff;
+  line-height: 24px;
+  font-size: 14px;
+  margin: 0 0 0 68px;
+}
+/*----- # END IDEIAS-EM-PRATICA -----*/
+
+
+
+
+
 
 @keyframes animate-loading {
   0% {

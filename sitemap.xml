@@ -4,14 +4,20 @@
 
   <url>
     <loc>https://lucashmarques.com/</loc>
-    <lastmod>2025-10-12T20:32:58+00:00</lastmod>
+    <lastmod>2025-10-15T21:04:32+00:00</lastmod>
     <priority>1.00</priority>
   </url>
-  
+
   <url>
     <loc>https://lucashmarques.com/index.html</loc>
-    <lastmod>2025-10-12T22:32:58+00:00</lastmod>
-    <priority>0.80</priority>
+    <lastmod>2025-10-15T21:04:32+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://lucashmarques.com/ideias-em-pratica.html</loc>
+    <lastmod>2025-10-20T21:08:10+00:00</lastmod>
+    <priority>1.00</priority>
   </url>
 
 </urlset>

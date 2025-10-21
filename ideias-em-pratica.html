@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Lucas Henrique Marques</title>
+  <title>Ideias em Prática</title>
   <meta name="description"
-    content="Explore e conheça minhas ideias e soluções em Tecnologia da Informação. Visualize ferramentas, cálculos, conversores e projetos interativos.">
+    content="Experimentos, testes e projetos que viram aprendizado. Descubra ferramentas e recursos práticos para aprimorar suas habilidades em diversas áreas, desde finanças até tecnologia.">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.webp" rel="icon">
@@ -47,7 +47,7 @@
           <li><a class="nav-link" href="#health-well-being">Saúde e Bem-estar</a></li>
           <li><a class="nav-link" href="#conversions">Conversões</a></li>
           <li><a class="nav-link" href="#technology">Tecnologia</a></li>
-          <li><a class="nav-link" href="index.html">Créditos</a></li>
+          <li><a class="nav-link" href="index.html#contact">Créditos</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -84,8 +84,46 @@
 
       <div class="section-title">
         <h2>Saúde e Bem-Estar</h2>
-        <p>Página em construção <i class="bi bi-tools"></i></p>
+        <p>Cuidando do corpo e da mente</p>
       </div>
+
+      <div class="row mt-3">
+        <div class="col-md-6"> <!-- Health Tool 1 -->
+          <div
+            class="d-flex align-items-center justify-content-between p-3 rounded shadow-sm border border-success bg-dark bg-opacity-25">
+
+            <a href="https://www.bemestarintegral.com.br" target="_blank"
+              class="text-decoration-none fw-semibold text-light">
+              Bem-Estar Integral
+            </a>
+
+            <button type="button"
+              class="btn btn-sm rounded-circle d-flex align-items-center justify-content-center border-2"
+              style="width: 32px; height: 32px; border-color: #18d26e; color: #18d26e; background-color: transparent;"
+              data-bs-toggle="popover" data-bs-placement="bottom" title="Saiba mais"
+              data-bs-content="Plataforma que oferece conteúdos para promover o equilíbrio entre corpo e mente, visando uma vida mais saudável e plena.">
+              ?
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+          [...popoverTriggerList].forEach(el => new bootstrap.Popover(el, {
+            trigger: 'hover focus',
+            container: 'body',
+            template: `
+        <div class="popover" role="tooltip" style="background-color:#18d26e; color:#fff; border:none;">
+          <div class="popover-arrow" style="--bs-popover-bg:#18d26e;"></div>
+          <h3 class="popover-header" style="background-color:#18d26e; color:#fff; border:none;"></h3>
+          <div class="popover-body" style="color:#fff;"></div>
+        </div>
+      `
+          }));
+        });
+      </script>
 
     </div>
   </section><!-- End Health-Well-Being Section -->
@@ -112,6 +150,44 @@
         <h2>Tecnologia</h2>
         <p>Página em construção <i class="bi bi-tools"></i></p>
       </div>
+
+      <div class="row mt-3">
+        <div class="col-md-6"> <!-- Technology Tool 1 -->
+          <div
+            class="d-flex align-items-center justify-content-between p-3 rounded shadow-sm border border-success bg-dark bg-opacity-25">
+
+            <a href="https://www.tudointeligente.com.br" target="_blank"
+              class="text-decoration-none fw-semibold text-light">
+              Tudo Inteligente
+            </a>
+
+            <button type="button"
+              class="btn btn-sm rounded-circle d-flex align-items-center justify-content-center border-2"
+              style="width: 32px; height: 32px; border-color: #18d26e; color: #18d26e; background-color: transparent;"
+              data-bs-toggle="popover" data-bs-placement="bottom" title="Saiba mais"
+              data-bs-content="Portal dedicado a compartilhar conhecimentos, dicas e novidades sobre tecnologia, automatizações em sua casa e tendências digitais.">
+              ?
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+          [...popoverTriggerList].forEach(el => new bootstrap.Popover(el, {
+            trigger: 'hover focus',
+            container: 'body',
+            template: `
+        <div class="popover" role="tooltip" style="background-color:#18d26e; color:#fff; border:none;">
+          <div class="popover-arrow" style="--bs-popover-bg:#18d26e;"></div>
+          <h3 class="popover-header" style="background-color:#18d26e; color:#fff; border:none;"></h3>
+          <div class="popover-body" style="color:#fff;"></div>
+        </div>
+      `
+          }));
+        });
+      </script>
 
     </div>
   </section><!-- End Technology Section -->

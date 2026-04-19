@@ -6,16 +6,37 @@
 
   <url>
     <loc>https://www.lucashmarques.com/</loc>
-    <lastmod>2026-01-16T22:48:26+00:00</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>1.00</priority>
   </url>
 
   <url>
-    <loc>https://www.lucashmarques.com/ideias-em-pratica.html</loc>
-    <lastmod>2025-11-16T11:47:26+00:00</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.lucashmarques.com/#resume</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lucashmarques.com/#portfolio</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lucashmarques.com/#about</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lucashmarques.com/#contact</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
   </url>
 
 </urlset>
